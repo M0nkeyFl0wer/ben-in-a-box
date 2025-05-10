@@ -4,6 +4,10 @@
 
 This prototype uses a Raspberry Pi with camera, microphone, speaker, and a square screen to transmit audio/video through an encrypted peer-to-peer connection using WebRTC. The device is enclosed in a durable, fuzzy 3D-printed case with plushy controls, designed to be tossed around a room.
 
+## Ben in a Box Preview
+
+![Ben in a Box](assets/m0nk-victory.png)
+
 ## Why it matters
 Everyone will live with some form of disability in their lifetime. That shouldn’t be the end of your ability to contribute, connect, or participate. This project was started to solve that problem personally — and maybe for others, too.
 
