@@ -63,16 +63,11 @@ This repo collects design notes, scripts, mockups, and eventually build instruct
 
 ## What’s in this repo
 
-assets/: Visual concepts and mockups (see ben-in-a-box.png)
-
-docs/: Early documentation like assembly.md
-
-hardware/3d-models/: Will include CAD files (OpenSCAD for now)
-
-software/scripts/: Setup scripts (e.g. for Raspberry Pi or browser kiosk mode)
-
-press/: Public-facing writing and intro post (intro-post.md)
-
+- `assets/`: Visual concepts and mockups (see [`ben-in-a-box.png`](assets/ben-in-a-box.png))
+- `docs/`: Early documentation like [`assembly.md`](docs/assembly.md)
+- `hardware/3d-models/`: Will include CAD files (OpenSCAD for now)
+- `software/scripts/`: Setup scripts (e.g. for Raspberry Pi or browser kiosk mode)
+- `press/`: Public-facing writing like the [`intro-post.md`](press/intro-post.md)
 
 ---
 
