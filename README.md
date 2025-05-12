@@ -1,4 +1,4 @@
-![Ben in a Box Mockup](assets/mockups/ben-in-a-box.png)
+![Ben in a Box Mockup](assets/ben-in-a-box.png)
 
 # Ben in a Box (a.k.a. *You in a Box*)
 
