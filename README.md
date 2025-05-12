@@ -16,6 +16,14 @@ Remote access tools often fall short — especially for folks with mobility limi
 
 We deserve more than a black box on mute.
 
+Because people with disabilities deserve to show up fully—and when we build for that, *everyone* benefits.
+
+**Ben in a Box** started as a way to make telepresence more humane. Not just “can someone call in,” but *how do we actually include them*? Wheel someone’s laptop around a conference? Open a Zoom window awkwardly in a room where no one’s looking at it? We’ve all seen how that plays out.
+
+A joyful, useful, *practical* little box that helps someone actually *feel there*—and be seen.
+
+We’re building this because inclusion shouldn’t be an afterthought—and because making things better for people with disabilities almost always makes things better for everyone else too.
+
 This project began as a personal accessibility tool. But really, it’s about **you**. That’s why the end goal is:  
 **You in a Box** — a customizable, open-source presence tool anyone can adapt and build.
 
@@ -47,30 +55,63 @@ If there's enough interest, this could evolve into:
 
 We want to make something that *feels good to use* — something soft, personal, and a little weird in the best way.
 
----
 
-## How it works (conceptually)
+This repo collects design notes, scripts, mockups, and eventually build instructions. The goal is a portable, low-cost, open-source kit that lets someone show up in physical space using tools t already have (like a Raspberry Pi and a webcam).
 
-- **Hardware**: Raspberry Pi, LCD screen, camera, mic, speaker, soft buttons, USB-C battery, fuzzy fabric
-- **Software**: Peer-to-peer video (WebRTC), local speech-to-text (Whisper/Vosk), future overlay UI
-- **Design**: Tossable, touchable, transportable. A box with a face.
-
-For a detailed hardware layout, check:
-- [`hardware/3d-models/ben-in-a-box-cad-detailed.scad`](hardware/3d-models/ben-in-a-box-cad-detailed.scad)
-- [`press/intro-post.md`](press/intro-post.md)
 
 ---
 
-## What’s in this repo
+What’s in this repo
 
-- `assets/mockups/`: Visual concepts and generated mockups  
-- `hardware/3d-models/`: CAD files (OpenSCAD for now)  
-- `software/scripts/`: Early-stage setup script for Raspberry Pi  
-- `press/`: Background and intro post for sharing
+assets/: Visual concepts and mockups (see ben-in-a-box.png)
 
-> Documentation and code are evolving. This is a living repo.
+docs/: Early documentation like assembly.md
+
+hardware/3d-models/: Will include CAD files (OpenSCAD for now)
+
+software/scripts/: Setup scripts (e.g. for Raspberry Pi or browser kiosk mode)
+
+press/: Public-facing writing and intro post (intro-post.md)
+
 
 ---
+
+Planned features
+
+Video + audio streaming through a small screen
+
+Human-sized framing to center the face, not the screen
+
+Captions or Whisper-based speech-to-text for accessibility
+
+USB microphone & webcam support
+
+3D-printable enclosure with soft or swappable skins
+
+
+---
+
+Roadmap
+
+[x] Mockups + design exploration
+
+[ ] Basic video call proof of concept (WebRTC)
+
+[ ] Raspberry Pi prototype
+
+[ ] Whisper integration for local captioning
+
+[ ] Optional audio input/output filter for voice modulation, clarity, or accessibility
+
+
+---
+
+License
+
+MIT for code. Media files and renders may use Creative Commons—see individual folders for details.
+
+> Because remote doesn’t have to mean robotic.
+
 
 ## How you can help
 
@@ -102,12 +143,3 @@ MIT. Free to use, remix, and adapt — especially if you make it softer, weirder
 ---
 
 **If this speaks to you, reach out. Let’s put ourselves in the box — and show up together.**# Ben in a Box
-
-This repo contains the evolving prototype for a soft, smart telepresence device designed to make remote presence more inclusive, joyful, and secure.
-
-## Structure
-- `assets/mockups/`: Visual previews and generated designs
-- `hardware/3d-models/`: CAD files for 3D printing
-- `hardware/schematics/`: Wiring and mounting diagrams
-- `software/scripts/`: Raspberry Pi install & automation
-- `press/`: Intro post and media-friendly descriptions
