@@ -61,7 +61,7 @@ This repo collects design notes, scripts, mockups, and eventually build instruct
 
 ---
 
-What’s in this repo
+## What’s in this repo
 
 assets/: Visual concepts and mockups (see ben-in-a-box.png)
 
@@ -76,7 +76,7 @@ press/: Public-facing writing and intro post (intro-post.md)
 
 ---
 
-Planned features
+## Planned features
 
 Video + audio streaming through a small screen
 
@@ -91,7 +91,7 @@ USB microphone & webcam support
 
 ---
 
-Roadmap
+## Roadmap
 
 [x] Mockups + design exploration
 
@@ -103,15 +103,7 @@ Roadmap
 
 [ ] Optional audio input/output filter for voice modulation, clarity, or accessibility
 
-
----
-
-License
-
-MIT for code. Media files and renders may use Creative Commons—see individual folders for details.
-
 > Because remote doesn’t have to mean robotic.
-
 
 ## How you can help
 
@@ -142,4 +134,3 @@ MIT. Free to use, remix, and adapt — especially if you make it softer, weirder
 
 ---
 
-**If this speaks to you, reach out. Let’s put ourselves in the box — and show up together.**# Ben in a Box
